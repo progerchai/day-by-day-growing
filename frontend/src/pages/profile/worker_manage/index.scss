@@ -1,0 +1,15 @@
+.workerBox {
+  padding: 30px;
+
+  .workItem {
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 40px 0px rgba(153, 153, 153, 0.31);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    color: #79A1EB;
+  }
+}

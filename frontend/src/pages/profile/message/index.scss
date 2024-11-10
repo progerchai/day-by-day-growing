@@ -1,0 +1,40 @@
+.messageBox {
+  margin: 20px;
+  padding: 20px;
+  min-height: 140px;
+  border-radius: 24px;
+  background-color: white;
+  box-shadow: 0px 10px 40px 0px rgba(153, 153, 153, 0.31);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .name {
+    color: #79A1EB;
+    font-size: 28px;
+  }
+
+  .createTime {
+    margin-top: 20px;
+  }
+
+  .description {
+    color: #7b8399;
+    font-size: 28px;
+  }
+
+  .approveBtnBox {
+    width: fit-content;
+
+    .approveBtn {
+      border-radius: 20px;
+      height: 60px;
+      box-shadow: 0px 8px 20px 0px rgba(153, 153, 153, 0.31);
+      display: inline-block !important;
+      width: fit-content !important;
+      margin: 0px !important;
+      margin-left: 10px !important;
+    }
+  }
+
+}

@@ -1,0 +1,15 @@
+.noDataBox {
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center;
+
+  .iconBox {
+    display: inline-block;
+  }
+
+  .noDataDesc {
+    color: #79A1EB;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+}

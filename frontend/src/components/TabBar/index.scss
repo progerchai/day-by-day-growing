@@ -1,0 +1,33 @@
+.tabBarWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #FFFFFF;
+  padding: 20px 0px;
+
+  .tabBarItem {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: PingFang SC, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .active {
+    color: #79A1EB;
+  }
+
+  .inActive {
+    color: black;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+}

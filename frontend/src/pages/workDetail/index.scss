@@ -1,0 +1,27 @@
+.extraText {
+  :global {
+    .item-extra {
+      height: 48px;
+    }
+
+    .item-extra__info {
+      font-size: 28px;
+    }
+  }
+}
+
+.formAtButton {
+  position: relative;
+  margin-top: 20px;
+
+  button {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0px 10px 10px 0px rgba(153, 153, 153, 0.31);
+  }
+
+  .normalBtn {
+    color: #fff;
+    background: #6592ea;
+  }
+}

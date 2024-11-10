@@ -1,0 +1,31 @@
+.teamBox {
+  padding: 30px;
+
+  .teamItem {
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 40px 0px rgba(153, 153, 153, 0.31);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    color: #79A1EB;
+
+    .joinBtn {
+      border-radius: 20px;
+      color: #79A1EB;
+      background-color: white;
+      box-shadow: 0px 8px 20px 0px rgba(153, 153, 153, 0.31);
+      display: inline-block !important;
+      width: fit-content !important;
+      margin: 0px !important;
+    }
+
+    .createTime {
+      color: #7b8399;
+      font-size: 25px;
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "NOTE": "// 每次修改，都需要在`iconfont.json 当前目录` 下执行一下 `npx iconfont-taro --config iconfont.json`",
+  "symbol_url": "https://at.alicdn.com/t/font_2656191_4cofbhdo67p.js",
+  "save_dir": "./src/iconfont",
+  "use_typescript": true,
+  "platforms": ["weapp"],
+  "use_rpx": true,
+  "trim_icon_prefix": "",
+  "default_icon_size": 18,
+  "design_width": 750
+}
